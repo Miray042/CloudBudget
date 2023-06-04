@@ -1,0 +1,83 @@
+.technology__title {
+    font-family: var(--LS);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    color: var(--black);
+    margin-bottom: 53px;
+
+}
+
+
+.technology__number {
+    font-family: var(--LB);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    color: rgba(16, 16, 16, 0.08);
+
+}
+
+.technology__card_title {
+    font-family: var(--LB);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--lightblack);
+    margin-bottom: 10px;
+}
+
+.technology__desc {
+    font-family: var(--LR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: var(--black);
+}
+
+.technology__card {
+    max-width: 191px;
+    text-align: center;
+}
+
+.technology__card_box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.technology__icon {
+    position: absolute;
+    bottom: -15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.technology__cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.technology__wrap {
+    padding-top: 63px;
+    padding-bottom: 104px;
+}
+
+
+@media screen and (max-width:772px) {
+   .technology__cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+   }
+}
+
+@media screen and (max-width:576px) {
+
+}
+
+@media screen and (max-width:375px) {
+ 
+}

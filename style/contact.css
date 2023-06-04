@@ -1,0 +1,145 @@
+.contact__title {
+    font-family: var(--LS);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 60px;
+    color: var(--black);
+}
+
+.contact__desc {
+    font-family: var(--LR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--black);
+}
+
+.contact__text {
+    max-width: 445px;
+}
+
+.contact__name {
+    all: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border: 1px solid var(--dark);
+    border-radius: 6px;
+    width: 225px;
+
+}
+
+.contact__last_name {
+    all: unset;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border: 1px solid var(--dark);
+    border-radius: 6px;
+    width: 225px;
+}
+
+.contact__phone {
+    all: unset;
+    width: 510px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border: 1px solid var(--dark);
+    border-radius: 6px;
+}
+
+.contact__service {
+    all: unset;
+    width: 510px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border: 1px solid var(--dark);
+    border-radius: 6px;
+}
+
+.contact__btn {
+    all: unset;
+    font-family: var(--LR);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: var(--white);
+    padding: 17px 34px;
+    background: var(--red);
+    border: 1.5px solid var(--red);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contact__wrapper {
+    padding-top: 120px;
+    padding-bottom: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact__form {
+    width: 540px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__input_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.input__arrow_form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input__arrow {
+    position: absolute;
+    right: 23px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:772px) {
+
+.contact__form {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+   .contact__wrapper {
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+   }
+}
+
+@media screen and (max-width:375px) {
+ .contact__input_name {
+    flex-direction: column;
+    gap: 30px;
+ }
+
+ .contact__phone {
+    width: 226px;
+ }
+
+ .contact__service {
+    width: 226px;
+ }
+}

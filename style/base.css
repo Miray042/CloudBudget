@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}   
+
+:root {
+    --LR: 'LR', sans-serif;
+    --LB: 'LB', sans-serif;
+    --LS: 'LS', sans-serif;
+    --white: #FFFFFF;
+    --black: #000000;
+    --red: #ED4C5C;
+    --bluegrey: #13274380;
+    --lightblack:#101010;
+    --grey:#FAFAFA;
+    --coverbg: #C4C4C4;
+    --dark: #333333;
+}
